@@ -5,6 +5,8 @@ module.exports = {
             prependData: `
               @import "src/assets/scss/app.scss";
               @import "src/assets/scss/fonts.scss";
+              @import "src/assets/scss/home.scss";
+              @import "src/assets/scss/switchTheme.scss";
               @import "src/assets/scss/variables.scss";
             `
           }

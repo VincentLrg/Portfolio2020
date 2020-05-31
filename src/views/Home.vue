@@ -3,6 +3,14 @@
     <h1>Vincent Largillet</h1>   
     <div class="container" v-show="global.showContainer">
       <SwitchTheme />
+      <div class="wip">
+        <h2>WORK.IN.PROGRESS</h2>
+        <h2 class="jap-text">進行中の作業</h2>
+        <p>Sélectionner pour visiter l'un de mes projets</p>
+        <CustomSelect :options="this.options" />
+
+        <p>Ou télécharger mon CV: <a target="_blank" rel="noopener nofollow" :href="this.cv"><b>ICI</b></a></p>
+      </div>
     </div>
   </div>
 </template>
@@ -11,15 +19,24 @@
 // @ is an alias to /src
 import { mapGetters, mapMutations } from "vuex";
 import SwitchTheme from '../components/SwitchTheme.vue';
+import CustomSelect from '../components/customSelect.vue';
+
+import Cv from '../assets/files/LARGILLET_Vincent_CV.pdf'
 
 
 export default {
   name: 'Home',
   components: {
-    SwitchTheme
+    SwitchTheme,
+    CustomSelect
+  },
+  data(){
+    return{
+      cv: Cv
+    }
   },
   computed: {
-    ...mapGetters(['global'])
+    ...mapGetters(['global', 'options'])
   },
   methods: {
     ...mapMutations(['setTrueShowContainer']),

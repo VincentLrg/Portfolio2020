@@ -18,9 +18,43 @@
     .container {
         width: 100%;
         height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .wip{
+            h2{
+                font-size: 4em;
+                &.jap-text{
+                    position: absolute;
+                    font-size: 5em;
+                    font-weight: 900;
+                    letter-spacing: 0.25em;
+                    top: 10%;
+                    right: 5%;
+                    writing-mode: vertical-rl;
+                }
+            }
+            p a{
+                text-decoration: underline;
+            }
+        }
     }
 }
 
+@media all and(max-width: 576px){
+    .home{
+        .container {
+            .wip {
+                h2{
+                    font-size: 2em;
+                    &.jap-text{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
 @keyframes expand {
     0%{
         clip-path: circle(25% at center);

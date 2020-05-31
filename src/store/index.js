@@ -21,6 +21,29 @@ export default new Vuex.Store({
     cursorType: {
 
     },
+    wip: [
+      {
+        name: "Recipeat",
+        link: "https://vincentlargillet.fr/recipeatSite"
+      },
+      {
+        name: "Journée des Métiers - MMI Elbeuf",
+        link: "https://www.mmirouen.fr/jdm2019/"
+      },
+      {
+        name: "BE-ETC",
+        link: "http://www.be-etc.com/"
+      },
+      {
+        name: "Gobelins - Dataviz",
+        link: "https://5continentsdeplastiques.surge.sh/"
+      },
+      {
+        name: "Gobelins - Workshop Louvre",
+        link: "https://vrmt.surge.sh/"
+      },
+    ],
+    options: ["Recipeat", "Journée des Métiers - MMI Elbeuf", "BE-ETC", "Gobelins - Dataviz", "Gobelins - Workshop Louvre"]
   },
   getters,
   mutations: {

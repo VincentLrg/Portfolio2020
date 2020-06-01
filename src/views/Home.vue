@@ -18,6 +18,7 @@
 <script>
 // @ is an alias to /src
 import { mapGetters, mapMutations } from "vuex";
+
 import SwitchTheme from '../components/SwitchTheme.vue';
 import CustomSelect from '../components/customSelect.vue';
 

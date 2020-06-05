@@ -11,7 +11,7 @@
                 >{{ option }}</div>
             </div>
         </div>
-        <a :href="this.wip[this.keyTo].link" target="_blank" rel="noopener nofollow">Go to <b>{{this.wip[this.keyTo].name}}</b></a>
+        <a :href="this.wip[this.keyTo].link" target="_blank" rel="noopener nofollow">Aller sur <b>{{this.wip[this.keyTo].name}}</b></a>
     </div>
 </template>
 

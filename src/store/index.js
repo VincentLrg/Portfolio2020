@@ -24,7 +24,7 @@ export default new Vuex.Store({
     wip: [
       {
         name: "Recipeat",
-        link: "https://vincentlargillet.fr/recipeatSite"
+        link: "https://recipeatvl.netlify.app/"
       },
       {
         name: "Journée des Métiers - MMI Elbeuf",

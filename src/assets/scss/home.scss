@@ -43,6 +43,9 @@
 
 @media all and(max-width: 576px){
     .home{
+        h1 {
+            font-size: 2em;
+        }
         .container {
             .wip {
                 h2{

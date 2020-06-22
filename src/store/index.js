@@ -47,7 +47,7 @@ export default new Vuex.Store({
         link: "https://exnihilo.netlify.app/"
       },
     ],
-    options: ["Recipeat", "Journée des Métiers - MMI Elbeuf", "BE-ETC", "Gobelins - Dataviz", "Gobelins - Workshop Louvre"]
+    options: ["Recipeat", "Journée des Métiers - MMI Elbeuf", "BE-ETC", "Gobelins - Dataviz", "Gobelins - Workshop Louvre", "Gobelins - Ex Nihilo"]
   },
   getters,
   mutations: {

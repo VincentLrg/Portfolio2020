@@ -42,6 +42,10 @@ export default new Vuex.Store({
         name: "Gobelins - Workshop Louvre",
         link: "https://vrmt.surge.sh/"
       },
+      {
+        name: "Gobelins - Ex Nihilo",
+        link: "https://exnihilo.netlify.app/"
+      },
     ],
     options: ["Recipeat", "Journée des Métiers - MMI Elbeuf", "BE-ETC", "Gobelins - Dataviz", "Gobelins - Workshop Louvre"]
   },

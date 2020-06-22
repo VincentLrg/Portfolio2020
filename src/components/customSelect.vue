@@ -36,8 +36,8 @@ export default {
     },
     mounted() {
         this.$emit("input", this.selected);
-        console.log(this.keyTo)
-        console.log(this.wip)
+        // console.log(this.keyTo)
+        // console.log(this.wip)
     }
 }
 </script>
